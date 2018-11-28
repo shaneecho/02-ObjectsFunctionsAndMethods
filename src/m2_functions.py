@@ -25,7 +25,7 @@ def main():
     TESTS the functions that you will write below.
     You write the tests per the _TODO_s below.
     """
-    pythagorean(10,12)
+    print(pythagorean(10,12))
     move()
 ###############################################################################
 # DONE: 3a.  Define a function immediately below this _TODO_.
@@ -42,7 +42,7 @@ def main():
 ###############################################################################
 def pythagorean(a, b):
     c = math.sqrt(a ** 2 + b ** 2)
-    print(c)
+    return(c)
 
 ###############################################################################
 # DONE: 4a.  Define a function immediately below this _TODO_.
